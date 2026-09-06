@@ -1,0 +1,13 @@
+{
+    "name": "Quartzzy",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "npm ci",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+            ]
+        }
+    }
+}
